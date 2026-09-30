@@ -1,0 +1,18 @@
+[[accounts]]
+name = "misskey"
+kind = "misskey"
+host = "http://localhost:8787"
+token = "ok"
+
+[[accounts]]
+name = "mastodon"
+kind = "mastodon"
+host = "http://localhost:8787"
+token = "ok"
+
+[[accounts]]
+name = "bsky"
+kind = "bluesky"
+host = "http://localhost:8787"
+identifier = "me.test"
+password = "pw"

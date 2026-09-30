@@ -1,0 +1,20 @@
+# Put this at ~/.config/social-poster/config.toml (override with SOCIAL_POSTER_CONFIG)
+
+[[accounts]]
+name = "misskey"
+kind = "misskey"
+host = "misskey.io"
+token = "access token with the 'Compose or delete notes' permission"
+
+[[accounts]]
+name = "mastodon"
+kind = "mastodon"
+host = "mastodon.social"
+token = "access token with the write:statuses scope"
+
+[[accounts]]
+name = "bsky"
+kind = "bluesky"
+# host = "bsky.social"  # change if you run your own PDS
+identifier = "you.bsky.social"
+password = "app password (not your main password)"
